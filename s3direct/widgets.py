@@ -16,8 +16,6 @@ class S3DirectWidget(widgets.TextInput):
         )
         css = {
             'all': (
-                's3direct/css/bootstrap-progress.min.css',
-                's3direct/css/styles.css',
             )
         }
 

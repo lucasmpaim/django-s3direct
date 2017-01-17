@@ -100,7 +100,7 @@
 
         if (data === null) return error(el, 'Sorry, could not get upload URL.')
 
-        el.className = 'progress'
+        el.className = 's3direct progress-active'
         var url  = data['form_action']
         delete data['form_action']
 

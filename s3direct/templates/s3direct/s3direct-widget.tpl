@@ -4,7 +4,7 @@
   <input class="file-url" type="hidden" value="{{ file_url }}" id="{{ element_id }}" name="{{ name }}" />
   <input class="file-dest" type="hidden" value="{{ dest }}">
   <input class="file-input" type="file"  style="{{ style }}"/>
-  <div class="progress progress-striped active">
-    <div class="bar"></div>
+  <div class="progress">
+    <div class="bar determinate"></div>
   </div>
 </div>

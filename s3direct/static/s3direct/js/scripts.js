@@ -160,6 +160,7 @@
         var el = e.target.parentElement
         el.querySelector('.file-url').value = ''
         el.querySelector('.file-input').value = ''
+        el.querySelector('.file-link').innerHTML= ''
         el.className = 's3direct form-active'
     }
 
